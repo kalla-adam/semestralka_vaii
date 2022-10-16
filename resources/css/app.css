@@ -152,7 +152,8 @@ span.psw {
 
     input[type="text"],
     input[type="password"] {
-        width: 100%;
+        width: 90%;
+        padding: 5% 5%;
     }
 
     button {
