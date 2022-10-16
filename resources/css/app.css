@@ -1,0 +1,166 @@
+h1 {
+    color: rgb(85, 62, 107);
+    text-align: center;
+    font-family: fantasy;
+    font: bolder;
+}
+
+body {
+    background-color: rgb(238, 212, 180);
+}
+
+a {
+    color: rgb(190, 76, 76);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font: bold;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.classic {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(84, 84, 155);
+}
+
+.special {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(105, 105, 192);
+}
+
+.pad-right {
+    padding-right: 10px;
+}
+
+.column {
+    float: left;
+    width: 48%;
+    padding: 1% 1%;
+}
+
+.full-column {
+    float: left;
+    width: 98%;
+    padding: 1% 1%;
+}
+
+.row {
+    border: 3px solid #470c0c;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+table {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    color: rgb(111, 194, 27);
+    text-align: center;
+    background-color: rgb(10, 94, 94);
+}
+
+td,
+th {
+    border: 1px solid #b44e4e;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #da7272;
+}
+
+.topnav {
+    background-color: rgb(184, 48, 48);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: rgb(218, 172, 172);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(218, 172, 172);
+    color: rgb(53, 15, 15);
+    font-style: italic;
+}
+
+.topnav a.active {
+    background-color: #04aa6d;
+    color: rgb(53, 15, 15);
+}
+
+form {
+    border: 3px solid #470c0c;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #b63843;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    display: block;
+    float: none;
+}
+
+@media screen and (max-width: 800px) {
+    .left,
+    .right {
+        float: left;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .column {
+        width: 98%;
+        padding: 1% 1%;
+    }
+}
