@@ -9,13 +9,13 @@
         Vrcholy
     </h1>
 
-    <div class="topnav" id="Navbar">
+    <div class="navbar" id="Navbar">
         <a href="{{route('home-page')}}">Home</a>
         <a href="{{route('vrcholy-page')}}" class="active">Vrcholy</a>
         <a href="{{route('krivan-page')}}">Kriváň</a>
     </div>
 
-  <table>
+  <table class="sortable">
     <tr>
       <th>Vrchol</th>
       <th>Výška (m.n.m.)</th>
@@ -86,6 +86,6 @@
     </div>
   </div>
 </div>
-   
+
 </body>
 @endsection

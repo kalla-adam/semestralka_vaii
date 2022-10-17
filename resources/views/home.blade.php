@@ -9,7 +9,7 @@
         Home
     </h1>
 
-    <div class="topnav" id="Navbar">
+    <div class="navbar" id="Navbar">
         <a href="{{route('home-page')}}" class="active">Home</a>
         <a href="{{route('vrcholy-page')}}">Vrcholy</a>
         <a href="{{route('krivan-page')}}">Kriváň</a>

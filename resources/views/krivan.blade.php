@@ -9,14 +9,14 @@
         Kriváň
     </h1>
 
-    <div class="topnav" id="Navbar">
+    <div class="navbar" id="Navbar">
         <a href="{{route('home-page')}}">Home</a>
         <a href="{{route('vrcholy-page')}}">Vrcholy</a>
         <a href="{{route('krivan-page')}}" class="active">Kriváň</a>
     </div>
 
     <div class="row">
-        <img src="storage/pics/krivan.jpg" alt="Krivan" class="left pad-right column">
+        <img src="storage/pics/krivan.jpg" alt="Krivan" class="column">
 
         <p class="classic column">
             Kriváň (poľ. Krywań, nem. Kriwan, maď. Kriván) je vrch na konci rázsochy, ktorá sa od hlavného hrebeňa Vysokých Tatier odvetvuje v Čubrine. 
@@ -29,15 +29,15 @@
     </div>
 
     <div class="row">
-        <img src="storage/pics/krivan1.jpg" alt="Krivan" class="left pad-right column">
-
         <p class="classic column">
             Krivánska časť rozsiahlych pozemkov, ktoré patrili do Liptova bola, po ústupe Tatárov (1241 – 1242), kráľovskými darovacími listinami pridelená zaslúžilým bojovníkom, ktorí ich prenajímali donátorom, šoltýsom, ktorí sa mali postarať o zaľudnenie a zúrodnenie kraja. Roku 1267 udelil Belo IV. comesovi Bogomelovi zalesnenú časť medzi Važcom a hranicami Spiša, rátajúc do toho liptovskú časť Vysokých Tatier s výnimkou Tichej a Kôprovej doliny, ktoré zostali korunným majetkom. Už predtým na tomto území žili osadníci, ktorí obrábali malé polia a chovali dobytok. Kolonizačný proces na tomto území sa pravdepodobne skončil v 13. storočí. V 15. – 16. storočí posilnila jestvujúce osídlenie valašská kolonizácia.[2] V druhej polovici 16. storočia v súvislosti s rozvojom baníctva v Boci sa rozvinulo v susedných obciach – Hybiach, Východnej a v Liptovskej Kokave – baníctvo. Turecké nebezpečenstvo, politická nespokojnosť uhorskej strednej šľachty, nedostatok finančných prostriedkov na udržiavanie vojsk podnietili vládnucich Habsburgovcov, aby hľadali chýbajúce prostriedky v ťažbe rúd a zlata. Cisár Ferdinand I., s pomocou štátneho dozoru, sa usiloval rozvinúť baníctvo v hornom Liptove. Územie Kriváňa pričlenili k správe komorských majetkov v Liptovskom Hrádku a do Tatier povolali odborníkov z okolia Banskej Bystrice, ktorí sa zaujímali o ložiská zlata nielen na Kriváni, ale aj vo všetkých susedných dolinách.
         </p>
+
+        <img src="storage/pics/krivan1.jpg" alt="Krivan" class="column">
     </div>
 
     <div class="row">
-        <img src="storage/pics/krivan2.jpg" alt="Krivan" class="left pad-right column">
+        <img src="storage/pics/krivan2.jpg" alt="Krivan" class="column">
 
         <p class="classic column">
             Generácia štúrovcov, ktorá, v 19. storočí začala vystupovať proti národnému útlaku a presadzovala myšlienku slovanskej vzájomnosti. Dňa 24. septembra 1835 vystúpil na Kriváň so šiestimi druhmi mikulášsky knihár, nakladateľ, spisovateľ a osvetár, národný buditeľ Gašpar Fejérpataky-Belopotocký. O dva roky neskôr vyšiel v Kuzmányho Hronke opis jeho Cesty na Kriváň Liptowský, ktorý predstavuje prvú literárnu zmienku o chýrnom končiari v slovenskej literárnej tvorbe. Jeho výstup možno považovať za vzor a priamu pohnútku neskorších národných vychádzok, výstupov, pútí na Kriváň – symbolickú horu slovanskej jednoty a sily Slovákov.
@@ -47,7 +47,7 @@
     </div>
 
     <div class="row">
-        <img src="storage/pics/krivan3.jpg" alt="Krivan" class="left pad-right full-column">
+        <img src="storage/pics/krivan3.jpg" alt="Krivan" class="full-column">
 
         <p class="classic column">
             Na Kriváni nie je núdza o záchranné akcie Horskej záchrannej služby i Vrtuľníkovej záchrannej zdravotnej služby. Piloti vrtuľníkov nemajú veľmi radi záchranné akcie v tejto oblasti. Posádky sa môžu dostať do kritických situácií, ktoré sú veľmi ťažko riešiteľné. Počas jedného leteckého výcviku, bolo to 17. augusta 1983, málo chýbalo, aby sa stala nehoda. Záchranári v masíve Kriváňa nacvičovali čo najrýchlejšie opustenie vrtuľníka v exponovanom teréne. Kriváň je pre pilotov nebezpečný štít. Každú sekundu musia byť v strehu, lebo na západnej strane Tatier, kde stojí tento ospevovaný štít, vejú zradné vetry zo všetkých strán, na helikoptéry tu číha termika i vzdušné diery.
