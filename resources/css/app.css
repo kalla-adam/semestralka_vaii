@@ -9,12 +9,6 @@ body {
     background-color: rgb(238, 212, 180);
 }
 
-a {
-    color: rgb(190, 76, 76);
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font: bold;
-}
-
 .classic {
     font-family: Georgia, "Times New Roman", Times, serif;
     color: rgb(84, 84, 155);
@@ -79,6 +73,8 @@ tr:nth-child(even) {
 .navbar a {
     float: left;
     color: rgb(218, 172, 172);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font: bold;
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
