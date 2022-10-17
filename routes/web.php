@@ -24,3 +24,7 @@ Route::get('/vrcholy', function () {
 Route::get('/krivan', function () {
     return view('krivan');
 })->name('krivan-page');
+
+Route::get('/dumbier', function () {
+    return view('dumbier');
+})->name('dumbier-page');

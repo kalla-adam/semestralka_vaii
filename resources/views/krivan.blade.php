@@ -13,6 +13,7 @@
         <a href="{{route('home-page')}}">Home</a>
         <a href="{{route('vrcholy-page')}}">Vrcholy</a>
         <a href="{{route('krivan-page')}}" class="active">Kriváň</a>
+        <a href="{{route('dumbier-page')}}">Ďumbier</a>
     </div>
 
     <div class="row">
