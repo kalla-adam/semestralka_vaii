@@ -1,9 +1,10 @@
 @extends('layouts.main')
+
+@section('title')
+    Kriváň
+@endsection
+
 @section('content')
-<head>
-    <title>Kriváň</title>
-</head>
-<body>
 
     <h1>
         Kriváň
@@ -56,5 +57,4 @@
         </p>
     </div>
 
-</body>
 @endsection

@@ -1,9 +1,10 @@
 @extends('layouts.main')
+
+@section('title')
+    Vrcholy
+@endsection
+
 @section('content')
-<head>
-    <title>Vrcholy</title>
-</head>
-<body>
 
     <h1>
         Vrcholy
@@ -88,5 +89,4 @@
   </div>
 </div>
 
-</body>
 @endsection

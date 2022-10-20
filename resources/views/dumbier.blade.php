@@ -1,9 +1,10 @@
 @extends('layouts.main')
+
+@section('title')
+    Ďumbier
+@endsection
+
 @section('content')
-<head>
-    <title>Ďumbier</title>
-</head>
-<body>
 
     <h1>
         Ďumbier
@@ -42,5 +43,4 @@
         <img src="storage/pics/dumbier2.jpg" alt="Dumbier" class="column">
     </div>
 
-</body>
 @endsection

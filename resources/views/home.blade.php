@@ -1,9 +1,10 @@
 @extends('layouts.main')
+
+@section('title')
+    Home
+@endsection
+
 @section('content')
-<head>
-    <title>Home</title>
-</head>
-<body>
 
     <h1>
         Home
@@ -35,5 +36,4 @@
         </div>
       </form>
 
-</body>
 @endsection
