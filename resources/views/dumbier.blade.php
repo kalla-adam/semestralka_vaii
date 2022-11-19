@@ -4,18 +4,13 @@
 Ďumbier
 @endsection
 
-@section('content')
+@section('nadpis')
 <h1>
     Ďumbier
 </h1>
+@endsection
 
-<div class="navbar" id="Navbar">
-    <a href="{{route('home-page')}}">Home</a>
-    <a href="{{route('vrcholy-page')}}">Vrcholy</a>
-    <a href="{{route('krivan-page')}}">Kriváň</a>
-    <a href="{{route('dumbier-page')}}" class="active">Ďumbier</a>
-</div>
-
+@section('content')
 <div class="row">
     <p class="classic column">
         Nachádza sa v centrálnej časti pohoria, v geomorfologickom podcelku Ďumbierske Tatry a jej časti Ďumbier.[3] Vrch leží na hranici Žilinského a Banskobystrického kraja, na rozhraní okresov Liptovský Mikuláš a Brezno. Zasahuje na katastrálne územie mesta Brezno a obcí Liptovský Ján a Horná Lehota.[4] Susednými vrchmi sú na západe Krúpova hoľa (1 928 m n. m.), na severe Ludárova hoľa (1 731 m n. m.), na východe Štiavnica (2 025 m n. m.) a juhu Veľký Gápeľ (1 776 m n. m.).[2] Vrch je najvyšším bodom okresu Brezno a regiónu Horehronie.

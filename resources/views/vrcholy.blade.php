@@ -4,18 +4,13 @@
 Vrcholy
 @endsection
 
-@section('content')
+@section('nadpis')
 <h1>
 	Vrcholy
 </h1>
+@endsection
 
-<div class="navbar" id="Navbar">
-	<a href="{{route('home-page')}}">Home</a>
-	<a href="{{route('vrcholy-page')}}" class="active">Vrcholy</a>
-	<a href="{{route('krivan-page')}}">Kriváň</a>
-	<a href="{{route('dumbier-page')}}">Ďumbier</a>
-</div>
-
+@section('content')
 <table class="sortable">
 	<tr>
 		<th>Vrchol</th>

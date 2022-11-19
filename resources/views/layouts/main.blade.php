@@ -10,6 +10,15 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
+    @yield('nadpis')
+
+    <div class="navbar" id="Navbar">
+        <a href="{{route('home-page')}}">Home</a>
+        <a href="{{route('vrcholy-page')}}">Vrcholy</a>
+        <a href="{{route('krivan-page')}}">Kriváň</a>
+        <a href="{{route('dumbier-page')}}">Ďumbier</a>
+    </div>
+    
     @yield('content')
 </body>
 </html>

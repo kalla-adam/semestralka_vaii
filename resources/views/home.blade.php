@@ -4,18 +4,13 @@
 Home
 @endsection
 
-@section('content')
+@section('nadpis')
 <h1>
     Home
 </h1>
+@endsection
 
-<div class="navbar" id="Navbar">
-    <a href="{{route('home-page')}}" class="active">Home</a>
-    <a href="{{route('vrcholy-page')}}">Vrcholy</a>
-    <a href="{{route('krivan-page')}}">Kriváň</a>
-    <a href="{{route('dumbier-page')}}">Ďumbier</a>
-</div>
-
+@section('content')
 <form action="#" method="post">
     <div class="container">
         <label><b>Prihlasovacie meno</b></label>

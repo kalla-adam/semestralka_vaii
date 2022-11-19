@@ -4,18 +4,13 @@
 Kriváň
 @endsection
 
-@section('content')
+@section('nadpis')
 <h1>
     Kriváň
 </h1>
+@endsection
 
-<div class="navbar" id="Navbar">
-    <a href="{{route('home-page')}}">Home</a>
-    <a href="{{route('vrcholy-page')}}">Vrcholy</a>
-    <a href="{{route('krivan-page')}}" class="active">Kriváň</a>
-    <a href="{{route('dumbier-page')}}">Ďumbier</a>
-</div>
-
+@section('content')
 <div class="row">
     <img src="storage/pics/krivan.jpg" alt="Krivan" class="column">
 
