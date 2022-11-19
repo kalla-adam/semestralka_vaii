@@ -13,12 +13,18 @@
     @yield('nadpis')
 
     <div class="navbar" id="Navbar">
-        <a href="{{route('home-page')}}">Home</a>
+        @if (!Auth::check())
+        <a href="{{route('login')}}">Login</a>
+        <a href="{{route('register-user')}}">Registrácia</a>
+        @endif
         <a href="{{route('vrcholy-page')}}">Vrcholy</a>
         <a href="{{route('krivan-page')}}">Kriváň</a>
         <a href="{{route('dumbier-page')}}">Ďumbier</a>
+        @if (Auth::check())
+        <a href="{{route('signout')}}">Logout</a>
+        @endif
     </div>
-    
+
     @yield('content')
 </body>
 </html>
